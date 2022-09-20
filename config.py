@@ -1,17 +1,3 @@
-AccessToken = "3036580922-0qqcsJ2AydzPCalmFTuCYXh60VYXUCCbAP2Lb3H"
-AccessTokenSecret = "1xCxknZHmOdCUvwKOgHwC5LufLhAzNQ6srXl2sJmC4bIJ"
-ConsumerKey = "nJcSnlVeY2pjhjoNkdKUOFoua"
-ConsumerKeySecret = "G2wuU0Fm4b9FB7AVivp56gaLqujBbMGSBA4EfE6lMqlhQqnXU3"
 TopicName = "TweetSentimentAnalysis"
-SearchTerm = "Macbook"
-BearerToken = "AAAAAAAAAAAAAAAAAAAAANuBewEAAAAA6sdnGDkTSU7aSlECmS3EFf%2BH9PY%3DJOmvblznh9cB6NaCM38H5qzqYZrTuJ4snWNkL6gBRwJAumN4cK"
-ClientToken = "S3Z6aFRHczZqckpCQ3dHeG92c3I6MTpjaQ"
-ClientSecret = "tZZ2z8mYyWpV__34UISIT1Uj19K_HBcJv5zFiKRTQuhYvOZDd0"
-
-
-# TweetSentimentAnalysisCS6350
-APIKey = "3iyEag1vBLhLtoywYDJRmegcI"
-APIKeySecret = "4yEuED0uVrF3qnYwInht4oWkMrg7zgy1ji517DkirzwVFSUZ0B"
-BearerTokenNew = "AAAAAAAAAAAAAAAAAAAAACQHfQEAAAAAIe%2Fa%2Fm%2BxvRO7oclkpSLcQrffSr4%3D7UNpB7JyeJ53rerqnQxJVKYTjkBt6HDzE6dbUxwnxrSvyXsFDs"
-AccessTokenNew = "3036580922-jIJW8odJjSqPCcG5ivMjRSez59gyJ1Au8A7J2jQ"
-AccessTokenSecretNew = "VFAp2VCmuiNcapbaD8TuVGXHkO0asAY7p4vqRmBUnXbK1"
+SearchTerm = "Covid lang:en"
+BearerToken = "{Add key}"

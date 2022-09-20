@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexer","timestamp":1658882330034,"sparkVersion":"3.2.1","uid":"StringIndexer_a975c371d372","paramMap":{"outputCol":"label","inputCol":"airline_sentiment"},"defaultParamMap":{"outputCol":"StringIndexer_a975c371d372__output","stringOrderType":"frequencyDesc","handleInvalid":"error"}}

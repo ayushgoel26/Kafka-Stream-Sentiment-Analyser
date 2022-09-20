@@ -1,0 +1,54 @@
+Software Requirements:
+    Java Runtime 
+    Apache Spark
+    ZooKeeper
+    Kafka
+    Elastic Search
+    Kibana
+    Logstash
+
+
+
+How to Run:
+
+ Follow the commands below 
+
+    1. Python packages
+        > pip3 install -r requirement.txt
+    
+    2. Run Zookeeper (in Terminal)
+        > cd <Kafka directory>
+        > bin/zookeeper-server-start.sh config/zookeeper.properties
+
+    3. Run Kafka (New Terminal)
+        > cd <Kafka directory>
+        > bin/kafka-server-start.sh config/server.properties
+
+    4. Create a Topic (New Terminal)
+        > cd <Kafka directory>
+        > bin/kafka-topics.sh --create --topic <Same name as in config file> --bootstrap-server localhost:9092
+
+    5. Run ElasticSearch (New Terminal)
+        > cd <Elasticsearch directory>
+        > /bin/elasticsearch
+
+    6. Run Kibana (New Terminal)
+        > cd <Kibana directory>
+        > /bin/kibana
+
+    7. Run Logstash (New Terminal)
+        > cd <Logstash directory>
+          * Create a file called logstash.conf in the logstash directory and add information after input and output flow
+        > /bin/logstash -f logstash.conf
+
+	
+    8. Run the Kafka producer
+       * Producer uses a pre-trained cross validator model ('trained_model') trained on twitter labelled dataset to generate sentiment of the real time twitter stream
+        > cd <Project folder>
+        > python3 producer.py
+		
+
+    9. Run the Kafka consumer
+        > cd <Project folder>
+        > python3 consumer.py
+
